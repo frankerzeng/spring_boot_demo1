@@ -1,7 +1,7 @@
 package com.spring_boot_demo1.mysql.service;
 
 import com.spring_boot_demo1.mysql.dao.UserRepository;
-import com.spring_boot_demo1.mysql.table.User;
+import com.spring_boot_demo1.mysql.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

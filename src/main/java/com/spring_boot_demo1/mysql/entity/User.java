@@ -1,4 +1,4 @@
-package com.spring_boot_demo1.mysql.table;
+package com.spring_boot_demo1.mysql.entity;
 
 import javax.persistence.*;
 

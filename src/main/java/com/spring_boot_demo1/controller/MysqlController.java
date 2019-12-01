@@ -1,7 +1,7 @@
 package com.spring_boot_demo1.controller;
 
 import com.spring_boot_demo1.mysql.service.UserService;
-import com.spring_boot_demo1.mysql.table.User;
+import com.spring_boot_demo1.mysql.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,7 +18,7 @@ public class MysqlController {
     @RequestMapping("insert-user/{username}")
     public String InsertUser(@PathVariable String username) {
         User user = new User();
-        System.out.println("--------------------");
+        System.out.println("--------------------:username");
         System.out.println(username);
 
         user.setUsername(username);
