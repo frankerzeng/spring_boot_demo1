@@ -21,5 +21,14 @@ public class WebController {
         return user_name;
     }
 
+    //自定义配置
+    @Value("${web.config.email}")
+    private String email;
+
+    @RequestMapping("email")
+    public String Email() {
+        return email;
+    }
+
 
 }
